@@ -6,10 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script type="text/javascript" src="script/jquery-1.9.1.min.js"></script>
         <script type="text/javascript" src="script/soundmanager2.js"></script>
-        <script type="text/javascript" src="script/inlineplayer.js"></script>
+        <script type="text/javascript" src="script/myscript.js"></script>
+        <!--<script type="text/javascript" src="script/inlineplayer.js"></script>-->
     </head>
     <body>
-        <div><a href="http://www.freshly-ground.com/misc/music/carl-3-barlp.mp3">Barrlping with Carl (featureblend.com)</a></div>
+        <div>
+            <div class="commontrack" data-source=="http://www.freshly-ground.com/misc/music/carl-3-barlp.mp3">Barrlping with Carl (featureblend.com)</div><br>
+            <a href="http://www.freshly-ground.com/misc/music/carl-3-barlp.mp3">Barrlping with Carl (featureblend.com)</a>
+        </div>
 
 
         <div class="row suffle_list song_suffle medium displayBox">
@@ -23,10 +27,7 @@
                     <div class="detailsData">
                         <div class="row">
                             <div class="right_icons">
-                                <a class="icons mrg-top-05" href="#"><i class="track13267 ind-icon-love
-                                                                        open_popup
-                                                                        " id="13267"></i>
-                                </a>
+                                <a class="icons mrg-top-05" href="#"><i class="track13267 ind-icon-love" id="13267"></i></a>
                                 <a class="icons pad-05 mrg-top-15 mrg-bottom-15" href="#"><i class="ind-icon-upload slideicon" data-id="slidediv_share_13267" onclick="dynamicSocial('13267', 'http://dev.indie.com/sea-stacks-brutal-concrete-scottish-wilderness', 'Sea\x20Stacks', 'Brutal\x20Concrete\x20\x2F\x20Scottish\x20Wilderness')"></i></a>
                                 <a class="icons  slideall" href="http://soundcloud.com/seastacks/brutal-concrete-scottish" target="_blank"><i class="ind-icon-soundcloud"></i></a>
                             </div>
@@ -35,7 +36,7 @@
                                     <div id="share-facebook-13267"></div>
                                     <div id="share-twitter-13267" class="pad-top-05"></div>
                                 </div>
-                                <table border="0" height="100%">
+                                <table>
                                     <tbody><tr>
                                             <td valign="top">
                                                 <div class="pad-left-15 track-link">
@@ -61,9 +62,9 @@
                                                         <span><strong>Sounds like: </strong></span>
                                                         <em>
                                                             <span class="blue"><strong>
-                                                                    <a class="ajaxlink" data-holder="#leftContainer" href="/soundslike/Bon%20Iver" data-href="/soundslike/content/Bon%2520Iver">Bon Iver</a>,                                                
-                                                                    <a class="ajaxlink" data-holder="#leftContainer" href="/soundslike/%20Stornoway" data-href="/soundslike/content/Stornoway"> Stornoway</a>,                                                
-                                                                    <a class="ajaxlink" data-holder="#leftContainer" href="/soundslike/%20Sigur%20Ros" data-href="/soundslike/content/Sigur%2520Ros"> Sigur Ros</a>                                                
+                                                                    <a class="ajaxlink" data-holder="#leftContainer" href="/soundslike/Bon%20Iver" data-href="/soundslike/content/Bon%2520Iver">Bon Iver</a>,
+                                                                    <a class="ajaxlink" data-holder="#leftContainer" href="/soundslike/%20Stornoway" data-href="/soundslike/content/Stornoway"> Stornoway</a>,
+                                                                    <a class="ajaxlink" data-holder="#leftContainer" href="/soundslike/%20Sigur%20Ros" data-href="/soundslike/content/Sigur%2520Ros"> Sigur Ros</a>
                                                                 </strong>
                                                             </span>
                                                         </em>
@@ -81,7 +82,8 @@
                                                 </div>
                                             </td>
                                         </tr>
-                                    </tbody></table>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
